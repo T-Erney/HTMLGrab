@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
 
     if (argc < 2) {
-        printf("htmlgrab: error: no url provided");
+        printf("htmlgrab: error: no url provided\n");
         return -1;
     }
     char* html = htmlgrab(argv[1]);
